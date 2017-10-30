@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITestSpeeder_Example' do
+  pod 'UITestSpeeder', :path => '../'
+
+  target 'UITestSpeeder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
