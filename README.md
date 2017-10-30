@@ -22,7 +22,8 @@ pod 'UITestSpeeder'
 
 ## Author
 
-ronunes, rodrigo.nunes@cornerjob.com
+Rodrigo Nunes, rodrigo.nunes06@gmail
+Jesús Lopez, jesuslg123@gmail.com
 
 ## License
 
