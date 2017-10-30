@@ -1,0 +1,26 @@
+{
+  "name": "UITestSpeeder",
+  "version": "0.1.0",
+  "summary": "UITest helpers for quickening UI tests writing.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cornerjob/UITestSpeeder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ronunes": "rodrigo.nunes@cornerjob.com"
+  },
+  "source": {
+    "git": "https://github.com/cornerjob/UITestSpeeder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UITestSpeeder/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.2"
+  },
+  "frameworks": "XCTest"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - UITestSpeeder (0.1.0)
+
+DEPENDENCIES:
+  - UITestSpeeder (from `../`)
+
+EXTERNAL SOURCES:
+  UITestSpeeder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UITestSpeeder: 38141e5d8af5e9c7caf23f912ef80650a4072fbd
+
+PODFILE CHECKSUM: 9c0501acad9f13fd12ed165942f808dab68cf8d7
+
+COCOAPODS: 1.3.1
