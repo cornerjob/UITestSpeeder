@@ -24,7 +24,7 @@ This is a library made for helping writing UITests faster. Made by cornerjob tea
   s.homepage         = 'https://github.com/cornerjob/UITestSpeeder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ronunes' => 'rodrigo.nunes@cornerjob.com' }
+  s.author           = { 'Rodrigo Nunes' => 'rodrigo.nunes06@gmail.com', 'Jesus Lopez' => 'jesuslg123@gmail.com' }
   s.source           = { :git => 'https://github.com/cornerjob/UITestSpeeder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
