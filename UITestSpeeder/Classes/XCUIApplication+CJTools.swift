@@ -89,7 +89,7 @@ public extension XCUIApplication {
         return imageElement
     }
 
-    public func findTableContainingLabel(label: String, timeout: ExpectationTimeout = .Default, index: UInt? = nil) -> XCUIElement {
+    public func findTableContainingLabel(label: String, timeout: ExpectationTimeout = .Default, index: Int? = nil) -> XCUIElement {
 
         let table:XCUIElement
 
@@ -116,7 +116,7 @@ public extension XCUIApplication {
         return textView
     }
     
-    public func findCellWithIndex (index:UInt, timeout: ExpectationTimeout = .Default, continueIfFail:Bool = false) -> XCUIElement {
+    public func findCellWithIndex (index:Int, timeout: ExpectationTimeout = .Default, continueIfFail:Bool = false) -> XCUIElement {
         let context = XCTestCase()
         let cellview = XCUIApplication().cells.element(boundBy: index)
         context.waitForExist(object: cellview, timeout: timeout, continueIfFail: continueIfFail)
@@ -158,7 +158,7 @@ public extension XCUIApplication {
         button.tap()
     }
     
-    public func tapButtonWithIndex(label:String, index:UInt) {
+    public func tapButtonWithIndex(label:String, index:Int) {
         let buttons = findButtons(label: label)
         buttons.element(boundBy: index).tap()
     }
@@ -167,11 +167,11 @@ public extension XCUIApplication {
         XCUIApplication().navigationBars.buttons.element(boundBy: 0).tap()
     }
     
-    public func tapCellWithIndex (index:UInt) {
+    public func tapCellWithIndex (index:Int) {
         XCUIApplication().cells.element(boundBy: index).tap()
     }
 
-    public func isButtonWithIndexEnabled (label:String, index:UInt) -> Bool {
+    public func isButtonWithIndexEnabled (label:String, index:Int) -> Bool {
         let buttons = findButtons(label: label)
         return buttons.element(boundBy: index).isEnabled
     }
@@ -202,7 +202,7 @@ public extension XCUIApplication {
     }
 
     // MARK: - Sheets
-    public func tapSheetOption(index: UInt, timeout: ExpectationTimeout = .Default) {
+    public func tapSheetOption(index: Int, timeout: ExpectationTimeout = .Default) {
         findSheet().buttons.element(boundBy: index).tap()
     }
 

@@ -12,7 +12,7 @@ import XCTest
 public extension XCUIElement {
     
     // MARK: - Actions
-    public func tapOnCell(index: UInt) {
+    public func tapOnCell(index: Int) {
         self.cells.element(boundBy: index).coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)).tap()
     }
     

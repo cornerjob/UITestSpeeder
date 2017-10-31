@@ -53,6 +53,16 @@
                ReferencedContainer = "container:UITestSpeeder.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F35E3771FA888C500DBDA22"
+               BuildableName = "UITestSpeeder_ExampleUITests.xctest"
+               BlueprintName = "UITestSpeeder_ExampleUITests"
+               ReferencedContainer = "container:UITestSpeeder.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

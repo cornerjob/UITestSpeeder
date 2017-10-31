@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6FB40A1278148281C7396F81 /* Pods_UITestSpeeder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F362A06B7631778D70492E0F /* Pods_UITestSpeeder_Tests.framework */; };
 		73228644EEEA64AD78B69DAB /* Pods_UITestSpeeder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95411D4C3F3F7A6F90FB10C /* Pods_UITestSpeeder_Example.framework */; };
+		9F35E37B1FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E37A1FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.swift */; };
 		9FC8F6F61FA76EEE009C29E9 /* UITestSpeeder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC8F6F71FA76EEE009C29E9 /* UITestSpeeder.framework */; };
 		EEF23DFD8AF3C4313719D137 /* Pods_UITestSpeeder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC8F6F51FA76E5C009C29E9 /* Pods_UITestSpeeder_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = UITestSpeeder;
+		};
+		9F35E37D1FA888C500DBDA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = UITestSpeeder_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,6 +54,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		760EA11961C41131CA5C787B /* Pods-UITestSpeeder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestSpeeder_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITestSpeeder_Tests/Pods-UITestSpeeder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D73BE211C39FB62F5598562 /* Pods-UITestSpeeder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestSpeeder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITestSpeeder_Example/Pods-UITestSpeeder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F35E3781FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestSpeeder_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F35E37A1FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSpeeder_ExampleUITests.swift; sourceTree = "<group>"; };
+		9F35E37C1FA888C500DBDA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC8F6F31FA76D54009C29E9 /* UITestSpeeder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UITestSpeeder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8F6F51FA76E5C009C29E9 /* Pods_UITestSpeeder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UITestSpeeder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8F6F71FA76EEE009C29E9 /* UITestSpeeder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UITestSpeeder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F35E3751FA888C500DBDA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +100,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for UITestSpeeder */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				9F35E3791FA888C500DBDA22 /* UITestSpeeder_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				745F38F142543BED5F89DE55 /* Pods */,
 				B4E79737018753A1607C604A /* Frameworks */,
@@ -93,6 +112,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* UITestSpeeder_Example.app */,
 				607FACE51AFB9204008FA782 /* UITestSpeeder_Tests.xctest */,
+				9F35E3781FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +177,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F35E3791FA888C500DBDA22 /* UITestSpeeder_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F35E37A1FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.swift */,
+				9F35E37C1FA888C500DBDA22 /* Info.plist */,
+			);
+			path = UITestSpeeder_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		B4E79737018753A1607C604A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,13 +242,31 @@
 			productReference = 607FACE51AFB9204008FA782 /* UITestSpeeder_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9F35E3771FA888C500DBDA22 /* UITestSpeeder_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F35E3811FA888C500DBDA22 /* Build configuration list for PBXNativeTarget "UITestSpeeder_ExampleUITests" */;
+			buildPhases = (
+				9F35E3741FA888C500DBDA22 /* Sources */,
+				9F35E3751FA888C500DBDA22 /* Frameworks */,
+				9F35E3761FA888C500DBDA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F35E37E1FA888C500DBDA22 /* PBXTargetDependency */,
+			);
+			name = UITestSpeeder_ExampleUITests;
+			productName = UITestSpeeder_ExampleUITests;
+			productReference = 9F35E3781FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -232,6 +279,12 @@
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 29G8BMDEN6;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					9F35E3771FA888C500DBDA22 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = 29G8BMDEN6;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -251,6 +304,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* UITestSpeeder_Example */,
 				607FACE41AFB9204008FA782 /* UITestSpeeder_Tests */,
+				9F35E3771FA888C500DBDA22 /* UITestSpeeder_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +321,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F35E3761FA888C500DBDA22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,6 +456,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F35E3741FA888C500DBDA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F35E37B1FA888C500DBDA22 /* UITestSpeeder_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -402,6 +471,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* UITestSpeeder_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		9F35E37E1FA888C500DBDA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* UITestSpeeder_Example */;
+			targetProxy = 9F35E37D1FA888C500DBDA22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -596,6 +670,54 @@
 			};
 			name = Release;
 		};
+		9F35E37F1FA888C500DBDA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29G8BMDEN6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITestSpeeder_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornerjob.UITestSpeeder-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestSpeeder_Example;
+			};
+			name = Debug;
+		};
+		9F35E3801FA888C500DBDA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G8BMDEN6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITestSpeeder_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornerjob.UITestSpeeder-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestSpeeder_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,6 +744,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F35E3811FA888C500DBDA22 /* Build configuration list for PBXNativeTarget "UITestSpeeder_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F35E37F1FA888C500DBDA22 /* Debug */,
+				9F35E3801FA888C500DBDA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

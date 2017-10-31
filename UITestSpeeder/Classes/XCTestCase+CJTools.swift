@@ -10,7 +10,7 @@ import XCTest
 
 public extension XCTestCase {
     
-    public func waitForExist(object:Any, timeout:ExpectationTimeout = .Default, file:String=#file, line:UInt=#line, continueIfFail: Bool = false){
+    public func waitForExist(object:Any, timeout:ExpectationTimeout = .Default, file:String=#file, line:Int=#line, continueIfFail: Bool = false){
         self.expectation(for: NSPredicate(format: "exists = 1"), evaluatedWith: object)
         self.waitForExpectations(timeout: timeout.rawValue) { (error) in
             if (error != nil) {
